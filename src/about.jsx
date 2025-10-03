@@ -12,9 +12,9 @@ function About(){
                         By combining modern JavaScript, React and basic cloud-based workflows,<br/> I build small but reliable projects that are easy to extend and deploy.<br/>
                         I bring curiosity, discipline and a growing technical toolkit to every team I join,<br/> with a commitment to learning fast and contributing to meaningful work.
                     </p>
-                    <footer className="about-footer">
-                        <p>Nairobi, Kenya</p>
-                    </footer>
+                    <p className="about-location">
+                        Nairobi, Kenya
+                    </p>
                 </div>
             </div>
         </div>

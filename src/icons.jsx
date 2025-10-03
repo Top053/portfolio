@@ -1,6 +1,6 @@
 import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 
-function Footer(){
+function Contacticons(){
     return(
         <div>
             <a href="https://x.com/boyd_dgaf" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700"><FaTwitter size={24} /></a>
@@ -10,4 +10,4 @@ function Footer(){
     );
 }
 
-export default Footer;
+export default Contacticons;

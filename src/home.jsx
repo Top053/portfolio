@@ -1,5 +1,8 @@
-import Footer from "./footer";
+import { useNavigate } from "react-router-dom";
+import Contacticons from "./icons";
+
 function Home(){
+    const navigate=useNavigate();
     return(
         <div>
             <div className="main">
@@ -8,11 +11,11 @@ function Home(){
                     <p id="work">Frontend Software Engineer</p>
                     <div className="btn">
                         <button type="button">Contact Me</button>
-                        <button type="button">View Projects</button>
+                        <button type="button" onClick={()=>navigate("/projects")} >View Projects</button>
                     </div>
                 </div>
-                <div className="footer">
-                    <Footer/>
+                <div className="icons">
+                    <Contacticons/>
                 </div>
             </div>
         </div>
