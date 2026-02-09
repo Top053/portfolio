@@ -4,7 +4,7 @@ function Layout(){
         <div>
             <header>
                 <nav className="nav-bar">
-                    <p id="contact">+254795444909</p>
+                    <p id="contact">+254754692642</p>
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
