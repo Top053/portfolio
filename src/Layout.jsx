@@ -1,4 +1,4 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 function Layout(){
     return(
         <div>
@@ -6,9 +6,9 @@ function Layout(){
                 <nav className="nav-bar">
                     <p id="contact">+254754692642</p>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/projects">Projects</NavLink></li>
                     </ul>
                 </nav>
             </header>
