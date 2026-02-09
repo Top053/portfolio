@@ -72,6 +72,10 @@ header {
 .nav-bar li a.active::after{
     width: 100%;
 }
+.nav-bar li a.active{
+    color: rgb(141, 80, 147);
+    font-weight: 600;
+}
 .btn{
     margin: -30px;
     margin-right: 20px;
