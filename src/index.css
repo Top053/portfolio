@@ -67,6 +67,11 @@ header {
 .nav-bar li a:hover::after{
     width: 100%;
 }
+
+/*ACTIVE PAGE*/
+.nav-bar li a.active::after{
+    width: 100%;
+}
 .btn{
     margin: -30px;
     margin-right: 20px;
