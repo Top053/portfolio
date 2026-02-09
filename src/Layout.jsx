@@ -7,13 +7,19 @@ function Layout(){
                     <p className="contact">+254754692642</p>
                     <ul>
                         <li>
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
+                                Home
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""}>
+                                About
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/projects">Projects</NavLink>
+                            <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""}>
+                                Projects
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>
