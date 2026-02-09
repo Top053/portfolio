@@ -4,11 +4,17 @@ function Layout(){
         <div>
             <header>
                 <nav className="nav-bar">
-                    <p id="contact">+254754692642</p>
+                    <p className="contact">+254754692642</p>
                     <ul>
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about">About</NavLink></li>
-                        <li><NavLink to="/projects">Projects</NavLink></li>
+                        <li>
+                            <NavLink to="/">Home</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/about">About</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/projects">Projects</NavLink>
+                        </li>
                     </ul>
                 </nav>
             </header>
