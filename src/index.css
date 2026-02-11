@@ -166,3 +166,15 @@ span{
     width: 80%;
     margin-left: 70px;
 }
+footer{
+    text-align: center;
+    padding: 40px;
+}
+@media (min-width:768px) {
+    .main{
+        max-width:850px;
+    }
+    p{
+        color: red;
+    }
+}
