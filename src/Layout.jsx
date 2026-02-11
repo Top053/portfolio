@@ -1,7 +1,7 @@
 import { Outlet, NavLink } from 'react-router-dom';
 function Layout(){
     return(
-        <div>
+        <div className='layout'>
             <header>
                 <nav className="nav-bar">
                     <p className="contact">+254754692642</p>
