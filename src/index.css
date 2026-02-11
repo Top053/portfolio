@@ -13,6 +13,14 @@ body{
     background-position: center;
     background-size: 30%;
 }
+.layout{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
 header {
     position: fixed;
     top: 0;
