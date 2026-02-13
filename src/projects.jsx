@@ -1,6 +1,8 @@
 function Projects(){
     return(
-        <div></div>
+        <div>
+            <div className="main"></div>
+        </div>
     )
 }
 export default Projects;
