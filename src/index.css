@@ -154,7 +154,6 @@ button{
     border: 1px solid rgb(229, 216, 216);
     padding:7px 16px;
     border-radius: 18px;
-    margin: 60px;
     width: 100px;
     cursor: pointer;
     transition: 0.3s;
