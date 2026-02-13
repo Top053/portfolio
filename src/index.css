@@ -25,6 +25,15 @@ body{
     max-width:1000px ;
     
 }
+.main h1{
+    font-size:30px;
+    margin-top:40px;
+    bottom:0;
+    text-decoration-line: underline;    
+    text-decoration-color: #5e3963;     
+    text-decoration-thickness: 1px;     
+    text-underline-offset: 4px;         
+}
 main{
     flex: 1;
 }
@@ -119,15 +128,7 @@ span{
     width: 100%;
     font-size: 17px;
 }
-.main h1{
-    font-size:30px;
-    margin-top:40px;
-    bottom:0;
-    text-decoration-line: underline;    
-    text-decoration-color: #5e3963;     
-    text-decoration-thickness: 1px;     
-    text-underline-offset: 4px;         
-}
+
 #e-mail{
     margin-bottom:50px;
     margin-top: -18px;
@@ -135,8 +136,7 @@ span{
     font-size: 20px;
 }
 .about-location{
-    margin-top: 100px;
-    margin-left: 220px;
+    margin-top: 40px;
     color: aqua;
     font-size: 20px;
 }
