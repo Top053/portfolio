@@ -28,7 +28,7 @@ function Layout(){
                 <Outlet/>
             </main>
             <footer>
-                © 2025 My Website | All rights reserved
+                © <span id="year"></span> Lenox Boyd | All rights reserved.
             </footer>
         </div>
     )
