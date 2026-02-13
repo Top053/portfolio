@@ -28,7 +28,7 @@ function Layout(){
                 <Outlet/>
             </main>
             <footer>
-                © <span id="year"></span> Lenox Boyd | All rights reserved.
+                © {new Date().getFullYear()} Lenox Boyd | All rights reserved |
             </footer>
         </div>
     )
