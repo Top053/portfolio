@@ -18,6 +18,9 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 20px;
 }
 main{
     flex: 1;
@@ -48,7 +51,7 @@ header {
     z-index: 1000;
 }
 .nav-bar{
-    width: 90%;
+    width: 70%;
     margin:auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.397);
     display: flex;
