@@ -18,6 +18,14 @@ body{
     display: flex;
     flex-direction: column;
 }
+.main{
+    padding:40px;
+    margin: 50px;
+    top:30px;
+    width: 100%;
+    margin-left: 20px;
+    
+}
 main{
     flex: 1;
 }
@@ -103,15 +111,6 @@ button{
 button:hover{
     background-color: rgb(78, 51, 81);
 
-}
-.main{
-    position:absolute;
-    padding:40px;
-    margin: 50px;
-    top:30px;
-    width: 100%;
-    margin-left: 20px;
-    
 }
 
 .intro{
