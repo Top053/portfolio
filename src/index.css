@@ -12,6 +12,7 @@ body{
     background-image: url('./assets/body-image.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .layout{
     min-height: 100vh;
