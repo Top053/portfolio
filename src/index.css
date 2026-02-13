@@ -91,11 +91,6 @@ header {
     color: rgb(141, 80, 147);
     font-weight: 600;
 }
-.btn{
-    margin: -30px;
-    margin-right: 20px;
-    margin-left: -50px;
-}
 
 .intro{
     width:80%;
@@ -148,6 +143,11 @@ span{
 .boyd{
     width: 80%;
     margin-left: 70px;
+}
+.btn{
+    display: flex;
+    margin-right: 20px;
+    margin-left: -50px;
 }
 button{
     background:none ;
