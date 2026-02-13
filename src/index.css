@@ -96,21 +96,6 @@ header {
     margin-right: 20px;
     margin-left: -50px;
 }
-button{
-    background:none ;
-    border: 1px solid white;
-    padding:7px;
-    border-radius: 18px;
-    margin: 60px;
-    width: 100px;
-    cursor: pointer;
-    transition: 0.5s;
-
-}
-button:hover{
-    background-color: rgb(78, 51, 81);
-
-}
 
 .intro{
     width:80%;
@@ -163,6 +148,21 @@ span{
 .boyd{
     width: 80%;
     margin-left: 70px;
+}
+button{
+    background:none ;
+    border: 1px solid rgb(229, 216, 216);
+    padding:7px 16px;
+    border-radius: 18px;
+    margin: 60px;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+button:hover{
+    background-color: rgb(78, 51, 81);
+
 }
 footer{
     text-align: center;
