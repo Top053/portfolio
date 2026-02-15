@@ -62,7 +62,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    padding: 5px 20px;
 }
 .nav-bar #contact{
     width: 100%;
