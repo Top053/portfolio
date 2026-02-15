@@ -24,6 +24,7 @@ body{
 }
 .page-width{
     max-width: 1000px;
+    margin: 0 auto;
 }
 main{
     flex: 1;
