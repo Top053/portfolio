@@ -22,6 +22,9 @@ body{
     max-width: 700px;
     padding: 0 20px;
 }
+.page-width{
+    max-width: 1000px;
+}
 main{
     flex: 1;
     display: flex;
