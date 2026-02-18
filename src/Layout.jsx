@@ -3,8 +3,8 @@ function Layout(){
     return(
         <div className='layout'>
             <header>
-                <div className="page-width">
-                    <nav className="nav-bar">
+                <nav className="nav-bar">
+                    <div className="page-width nav-content">
                         <p className="contact">+254754692642</p>
                         <ul>
                             <li>
@@ -23,8 +23,8 @@ function Layout(){
                                 </NavLink>
                             </li>
                         </ul>
-                    </nav>
-                </div>
+                    </div>
+                </nav>
             </header>
             <main>
                 <div className="page-width">
