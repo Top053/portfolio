@@ -33,7 +33,7 @@ main{
     padding:40px 20px;
     margin:0 auto ;
     width: 100%;
-    max-width:900px ;
+    max-width:810px ;
     
 }
 .main h1{
@@ -57,7 +57,7 @@ header {
 }
 .nav-bar{
     width: 100%;
-    max-width: 900px;
+    max-width: 810px;
     margin:0 auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.397);
     padding: 5px 20px;
