@@ -33,11 +33,15 @@ function Layout(){
                 </div>
             </main>
             <footer>
-                <div className="icons">
-                    <Contacticons/>
-                </div>
-                <div className="page-width">
-                    © {new Date().getFullYear()} Lenox Boyd | All rights reserved |
+                <div className="footer-container">
+                    <div className="tm-icons">
+                        <div className="icons">
+                            <Contacticons/>
+                        </div>
+                        <div className="page-width">
+                            © {new Date().getFullYear()} Lenox Boyd | All rights reserved |
+                        </div>
+                    </div>
                 </div>
             </footer>
         </div>
