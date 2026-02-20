@@ -192,6 +192,10 @@ footer{
     font-size: 14px;
     opacity: 0.85;
 }
+.icons{
+    display: flex;
+    gap: 15px;
+}
 @media (min-width:768px) {
     .main{
         max-width:850px;
