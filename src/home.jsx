@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import Contacticons from "./icons";
 
 function Home(){
     const navigate=useNavigate();
