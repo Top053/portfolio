@@ -33,14 +33,10 @@ function Layout(){
                 </div>
             </main>
             <footer>
-                <div className="footer-container">
-                    <div className="tm-icons">
-                        <div className="icons">
+                <div className="page-width footer-container">
+                    <div className="footer-content">
                             <Contacticons/>
-                        </div>
-                        <div className="page-width">
-                            © {new Date().getFullYear()} Lenox Boyd | All rights reserved |
-                        </div>
+                            <p>© {new Date().getFullYear()} Lenox Boyd | All rights reserved</p>
                     </div>
                 </div>
             </footer>
