@@ -14,9 +14,6 @@ function Home(){
                         <button type="button" onClick={()=>navigate("/projects")} >View Projects</button>
                     </div>
                 </div>
-                <div className="icons">
-                    <Contacticons/>
-                </div>
             </div>
         </div>
     )
