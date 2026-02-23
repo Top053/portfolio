@@ -202,3 +202,7 @@ footer{
     color:white;
     transition:color 0.3s ease, transform 0.2s ease;
 }
+.icons a:hover{
+    color: rgb(141, 80, 147); 
+    transform: translateY(-3px);
+}
