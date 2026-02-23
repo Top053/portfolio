@@ -173,7 +173,7 @@ button{
 
 }
 button:hover{
-    background-color: rgb(78, 51, 81);
+    background: rgb(78, 51, 81);
 
 }
 footer{
@@ -196,7 +196,9 @@ footer{
     display: flex;
     gap: 15px;
 }
-.icons svg{
+.icons a{
     font-size: 24px;
     cursor: pointer;
+    color:white;
+    transition:color 0.3s ease, transform 0.2s ease;
 }
