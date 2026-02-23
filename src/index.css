@@ -196,8 +196,3 @@ footer{
     display: flex;
     gap: 15px;
 }
-@media (min-width:768px) {
-    .main{
-        max-width:850px;
-    }
-}
