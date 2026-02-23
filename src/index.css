@@ -196,3 +196,7 @@ footer{
     display: flex;
     gap: 15px;
 }
+.icons svg{
+    font-size: 24px;
+    cursor: pointer;
+}
