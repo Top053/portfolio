@@ -202,15 +202,11 @@ footer{
     cursor: pointer;
     transition: transform 0.2s ease;
 }
-.icons a{
-    display: inline-flex;
-    align-items: center;
-    font-size: 24px;
-    cursor: pointer;
-    color:white;
+.icons a .icon{
+    fill:white;
     transition:color 0.3s ease, transform 0.2s ease;
 }
-.icons a:hover{
-    color: rgb(141, 80, 147); 
+.icons a:hover .icon{
+    fill: rgb(141, 80, 147); 
     transform: translateY(-3px);
 }
