@@ -69,7 +69,7 @@ header {
     align-items: center;
     padding: 10px 0;
 }
-.nav-bar #contact{
+.nav-bar .contact{
     width: 100%;
     margin: 0;
     display: flex;
