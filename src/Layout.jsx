@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import Contacticons from "./icons";
 function Layout(){
-    const [menuOpen, setMenuOpen]=useState(false)
+    const [menuOpen, setMenuOpen]=useState(false);
+    const closeMenu= () => SetMenuOpen(false);
     return(
         <div className='layout'>
             <header>
