@@ -13,6 +13,7 @@ function Layout(){
                         {/*Hamburger button - only visible on mobile*/}
                         <button
                             className="hamburger"
+                            onClick={() => SetMenuOpen(prev=>!prev)}
                         ></button>
                         <ul>
                             <li>
