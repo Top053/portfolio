@@ -16,7 +16,11 @@ function Layout(){
                             onClick={() => setMenuOpen(prev => !prev)}
                             aria-label="Toggle navigation menu"
                             aria-expanded={menuOpen}
-                        ></button>
+                        >
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                        </button>
                         <ul>
                             <li>
                                 <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
