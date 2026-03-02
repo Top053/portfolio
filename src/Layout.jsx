@@ -10,7 +10,7 @@ function Layout(){
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
                         <p className="contact">+254754692642</p>
-                        {/*Hamburger button - only visible on mobile*/}
+                        {/*Hamburger button - only visible on mobile or small screens*/}
                         <button
                             className="hamburger"
                             onClick={() => setMenuOpen(prev => !prev)}
@@ -22,19 +22,19 @@ function Layout(){
                             <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
                         </button>
                         {/*nav links*/}
-                        <ul>
+                        <ul className={menuOpen ? 'nav-open' : ''}>
                             <li>
-                                <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
+                                <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                                     Home
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""}>
+                                <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                                     About
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""}>
+                                <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                                     Projects
                                 </NavLink>
                             </li>
