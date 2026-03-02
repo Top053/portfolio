@@ -3,7 +3,7 @@ import { Outlet, NavLink } from 'react-router-dom';
 import Contacticons from "./icons";
 function Layout(){
     const [menuOpen, setMenuOpen]=useState(false);
-    const closeMenu= () => SetMenuOpen(false);
+    const closeMenu= () => setMenuOpen(false);
     return(
         <div className='layout'>
             <header>
@@ -13,7 +13,9 @@ function Layout(){
                         {/*Hamburger button - only visible on mobile*/}
                         <button
                             className="hamburger"
-                            onClick={() => SetMenuOpen(prev=>!prev)}
+                            onClick={() => setMenuOpen(prev => !prev)}
+                            aria-label="Toggle navigation menu"
+                            aria-expanded={menuOpen}
                         ></button>
                         <ul>
                             <li>
