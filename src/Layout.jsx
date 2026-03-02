@@ -10,8 +10,10 @@ function Layout(){
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
                         <p className="contact">+254754692642</p>
-                        {/*Hamburger button-only visible*/}
-                        <button></button>
+                        {/*Hamburger button - only visible on mobile*/}
+                        <button
+                            className="hamburger"
+                        ></button>
                         <ul>
                             <li>
                                 <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
