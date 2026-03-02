@@ -21,6 +21,7 @@ function Layout(){
                             <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
                             <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
                         </button>
+                        {/*nav links*/}
                         <ul>
                             <li>
                                 <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
