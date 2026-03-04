@@ -128,6 +128,12 @@ header {
     transform: none;
     border-color: rgb(141, 80, 147);
 }
+.hamburger-line{
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+}
 
 .intro{
     width:100%;
