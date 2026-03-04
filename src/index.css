@@ -153,6 +153,9 @@ header {
 .hamburger.open .two{
     opacity:0;
 }
+.hamburger.open .three{
+    transform:translateY(-7px) rotate(-45deg)
+}
 
 .intro{
     width:100%;
