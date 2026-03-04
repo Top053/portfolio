@@ -203,7 +203,7 @@ header {
     gap: 15px;
     margin-top: 30px;
 }
-button{
+.btn-home{
     background:none ;
     border: 1px solid rgb(229, 216, 216);
     padding:7px 16px;
@@ -212,7 +212,7 @@ button{
     transition: background-color 0.2s ease, transform 0.2s ease, border-color 0.3s ease;
 
 }
-button:hover{
+.btn-home:hover{
     background-color: rgb(78, 51, 81);
     transform: translateX(-2px);
     border-color: rgb(78, 51, 81);
