@@ -12,14 +12,14 @@ function Layout(){
                         <p className="contact">+254754692642</p>
                         {/*Hamburger button - only visible on mobile or small screens*/}
                         <button
-                            className="hamburger"
+                            className={`hamburger${menuOpen ? 'open':''}`}
                             onClick={() => setMenuOpen(prev => !prev)}
                             aria-label="Toggle navigation menu"
                             aria-expanded={menuOpen}
                         >
-                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
-                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
-                            <span className={`hamburger-line ${menuOpen ? 'open' : ''}`}></span>
+                            <span className="hamburger-line one"></span>
+                            <span className="hamburger-line two"></span>
+                            <span className="hamburger-line three"></span>
                         </button>
                         {/*nav links*/}
                         <ul className={menuOpen ? 'nav-open' : ''}>
