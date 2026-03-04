@@ -129,6 +129,8 @@ header {
     border: none;
     padding: 4px;
     border-radius: 4px;
+    width: auto;
+    cursor: pointer;
 }
 .hamburger:hover{
     background-color: rgb(141, 80, 147);
