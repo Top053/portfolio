@@ -252,3 +252,12 @@ footer{
     fill: rgb(141, 80, 147); 
     transform: translateY(-3px);
 }
+/*MOBILE STYLES*/
+@media (max-width:600px){
+    /*stack the nav content vertically*/
+    .nav-content{
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 0;
+    }
+}
