@@ -253,7 +253,7 @@ footer{
     transform: translateY(-3px);
 }
 /*MOBILE STYLES*/
-@media (max-width:600px){
+@media (max-width:800px){
     /*stack the nav content vertically*/
     .nav-content{
         flex-wrap: wrap;
@@ -262,6 +262,9 @@ footer{
     }
     .hamburger{
         display: flex;
+    }
+    .nav-bar ul{
+        display: none;
     }
 }
 
