@@ -252,17 +252,21 @@ footer{
     fill: rgb(141, 80, 147); 
     transform: translateY(-3px);
 }
+
 /*MOBILE STYLES*/
 @media (max-width:800px){
+
     /*stack the nav content vertically*/
     .nav-content{
         flex-wrap: wrap;
         align-items: center;
         padding: 10px 0;
     }
+
     .hamburger{
         display: flex;
     }
+
     /*hide nav links by default on mobile*/
     .nav-bar ul{
         display: none;
@@ -272,31 +276,39 @@ footer{
         gap: 0;
         padding: 10px 0 4px 0;
     }
+
     /*show nav links when menu is open*/
     .nav-bar ul.nav-open{
         display: flex;
     }
+
     .nav-bar li{
         width: 100%;
         padding: 10px 0;
         border-bottom: rgba(255, 255, 255, 0.397);
     }
+
     .nav-bar li:last-child{
         border-bottom: none;
     }
+
     .nav-bar li a{
         font-size: 1.1rem;
     }
+
     /*shrink heading on small screen*/
     .intro span{
         font-size: 52px;
     }
+
     .intro p{
         font-size: 28px;
     }
+
     .intro .profession{
         font-size: 20px;
     }
+
     /*stack footer vertically*/
     .footer-content{
         flex-direction: column;
