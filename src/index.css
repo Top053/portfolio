@@ -281,5 +281,11 @@ footer{
         padding: 10px 0;
         border-bottom: rgba(255, 255, 255, 0.397);
     }
+    .nav-bar li:last-child{
+        border-bottom: none;
+    }
+    .nav-bar li a{
+        font-size: 1.1rem;
+    }
 }
 
