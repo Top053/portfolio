@@ -291,5 +291,8 @@ footer{
     .intro span{
         font-size: 52px;
     }
+    .intro p{
+        font-size: 28px;
+    }
 }
 
