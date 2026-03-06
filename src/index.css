@@ -294,7 +294,7 @@ footer{
     .intro p{
         font-size: 28px;
     }
-    .profession{
+    .intro .profession{
         font-size: 20px;
     }
 }
