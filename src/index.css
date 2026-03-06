@@ -297,5 +297,11 @@ footer{
     .intro .profession{
         font-size: 20px;
     }
+    /*stack footer vertically*/
+    .footer-content{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
 }
 
