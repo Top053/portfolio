@@ -287,5 +287,9 @@ footer{
     .nav-bar li a{
         font-size: 1.1rem;
     }
+    /*shrink heading on small screen*/
+    .intro span{
+        font-size: 52px;
+    }
 }
 
