@@ -253,6 +253,11 @@ footer{
     transform: translateY(-3px);
 }
 
+/*DRAWER & OVERLAY*/
+.drawer-overlay{
+    position:fixed;
+}
+
 /*MOBILE STYLES*/
 @media (max-width:800px){
 
