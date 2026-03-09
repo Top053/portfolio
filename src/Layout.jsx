@@ -50,6 +50,26 @@ function Layout(){
                 className={`drawer-overlay ${menuOpen ? 'overlay-open' : ''}`}
                 onClick={closeMenu}
             ></div>
+            {/*sliding drawer*/}
+            <div className={`drawer ${menuOpen ? 'drawer-open' : ''}`}>
+                <ul className="drawer-links">
+                    <li>
+                        <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
+                            About
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
+                            Projects
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
             
             <main>
                 <div className="page-width">
