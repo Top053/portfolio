@@ -44,6 +44,12 @@ function Layout(){
                     </div>
                 </nav>
             </header>
+
+            {/*dim overlay-click it to close the drawer*/}
+            <div 
+                className={`drawer-overlay ${menuOpen ? 'overlay-open' : ''}`}
+                onClick={closeMenu}
+            ></div>
             
             <main>
                 <div className="page-width">
