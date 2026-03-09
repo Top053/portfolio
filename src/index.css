@@ -256,6 +256,7 @@ footer{
 /*DRAWER & OVERLAY*/
 .drawer-overlay{
     position:fixed;
+    inset:0;
 }
 
 /*MOBILE STYLES*/
