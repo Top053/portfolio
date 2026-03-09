@@ -255,13 +255,18 @@ footer{
 
 /*DRAWER & OVERLAY*/
 .drawer-overlay{
-    display: none;
+    visibility: hidden;
     position:fixed;
     inset:0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1001;
     opacity: 0;
     transition: opacity 0.3s ease;
+}
+
+.drawer-overlay.overlay-open{
+    opacity: 1;
+    visibility: visible;
 }
 
 /*MOBILE STYLES*/
