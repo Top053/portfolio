@@ -10,18 +10,8 @@ function Layout(){
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
                         <p className="contact">+254754692642</p>
-                        {/*Hamburger button - only visible on mobile or small screens*/}
-                        <button
-                            className={`hamburger ${menuOpen ? 'open':''}`}
-                            onClick={() => setMenuOpen(prev => !prev)}
-                            aria-label="Toggle navigation menu"
-                            aria-expanded={menuOpen}
-                        >
-                            <span className="hamburger-line one"></span>
-                            <span className="hamburger-line two"></span>
-                            <span className="hamburger-line three"></span>
-                        </button>
-                        {/*nav links*/}
+
+                        {/*Desktop nav links*/}
                         <ul className={menuOpen ? 'nav-open' : ''}>
                             <li>
                                 <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
@@ -39,9 +29,22 @@ function Layout(){
                                 </NavLink>
                             </li>
                         </ul>
+
+                        {/*Hamburger button - only visible on mobile or small screens*/}
+                        <button
+                            className={`hamburger ${menuOpen ? 'open':''}`}
+                            onClick={() => setMenuOpen(prev => !prev)}
+                            aria-label="Toggle navigation menu"
+                            aria-expanded={menuOpen}
+                        >
+                            <span className="hamburger-line one"></span>
+                            <span className="hamburger-line two"></span>
+                            <span className="hamburger-line three"></span>
+                        </button>
                     </div>
                 </nav>
             </header>
+            
             <main>
                 <div className="page-width">
                     <Outlet/>
