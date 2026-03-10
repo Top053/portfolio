@@ -281,6 +281,8 @@ footer{
     z-index: 1002;
     transform: translateX(-100%);
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 90px;
+    border-right: 1px solid rgba(141, 80, 147, 0.3);
 }
 
 .drawer.drawer-open{
