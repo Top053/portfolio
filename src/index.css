@@ -275,6 +275,10 @@ footer{
     height: 100vh;
     width: 260px;
     background: rgba(15, 5, 18, 0.97);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1002;
+    transform: translateX(-100%);
 }
 
 /*MOBILE STYLES*/
