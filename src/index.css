@@ -253,7 +253,7 @@ footer{
     transform: translateY(-3px);
 }
 
-/*DRAWER & OVERLAY*/
+/*OVERLAY & DRAWER*/
 .drawer-overlay{
     visibility: hidden;
     position:fixed;
@@ -267,6 +267,12 @@ footer{
 .drawer-overlay.overlay-open{
     opacity: 1;
     visibility: visible;
+}
+.drawer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
 }
 
 /*MOBILE STYLES*/
