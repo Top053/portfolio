@@ -311,6 +311,10 @@ footer{
     .hamburger{
         display: flex;
     }
+    /*show overlay when active*/
+    .drawer-overlay{
+        display: block;
+    }
 
     /*hide nav links by default on mobile*/
     .nav-bar ul{
