@@ -12,7 +12,7 @@ function Layout(){
                         <p className="contact">+254754692642</p>
 
                         {/*Desktop nav links*/}
-                        <ul className={menuOpen ? 'nav-open' : ''}>
+                        <ul>
                             <li>
                                 <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                                     Home
