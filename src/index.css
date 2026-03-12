@@ -265,6 +265,7 @@ footer{
 }
 
 .drawer-overlay.overlay-open{
+    display: block;
     opacity: 1;
 
 }
@@ -310,10 +311,6 @@ footer{
 
     .hamburger{
         display: flex;
-    }
-    /*show overlay when active*/
-    .drawer-overlay{
-        display: block;
     }
 
     /*hide nav links by default on mobile*/
