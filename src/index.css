@@ -316,11 +316,6 @@ footer{
     /*hide nav links by default on mobile*/
     .nav-bar ul{
         display: none;
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-        padding: 10px 0 4px 0;
     }
 
     .nav-bar li a{
