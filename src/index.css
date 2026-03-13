@@ -341,5 +341,10 @@ footer{
         align-items: flex-start;
         gap: 12px;
     }
+
+    .contact{
+        width: auto;
+        font-size: 1rem;
+    }
 }
 
