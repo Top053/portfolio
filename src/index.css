@@ -298,6 +298,7 @@ footer{
     flex-direction: column;
     gap: 0;
 }
+
 .drawer-links li a{
     display: block;
     padding:18px 4px;
@@ -306,6 +307,10 @@ footer{
     color: white;
     position: relative;
     transition: color 0.2s ease, padding-left 0.2s ease;
+}
+.drawer-links li a:hover{
+    color: rgb(141, 80, 147);
+    padding-left: 10px;
 }
 
 /*MOBILE STYLES*/
