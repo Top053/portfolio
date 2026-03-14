@@ -24,6 +24,11 @@ function Layout(){
                                 </NavLink>
                             </li>
                             <li>
+                                <NavLink to="/blogs" className={({isActive}) => isActive ? "active" : ""}>
+                                    Blogs
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                                     Projects
                                 </NavLink>
@@ -64,6 +69,11 @@ function Layout(){
                         </NavLink>
                     </li>
                     <li>
+                        <li>
+                            <NavLink to="/blogs" className={({isActive}) => isActive ? "active" : ""}>
+                                Blogs
+                            </NavLink>
+                        </li>
                         <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
                             Projects
                         </NavLink>
