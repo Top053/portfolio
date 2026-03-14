@@ -9,7 +9,6 @@ function Layout(){
             <header>
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
-                        <p className="contact">+254754692642</p>
 
                         {/*Desktop nav links*/}
                         <ul>

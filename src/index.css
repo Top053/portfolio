@@ -72,14 +72,7 @@ header {
     align-items: center;
     padding: 10px 0;
 }
-.contact{
-    width: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-    font-size:1.2rem;
-}
+
 .nav-bar ul{
     width: 100%;
     list-style: none;
@@ -359,9 +352,5 @@ footer{
         gap: 12px;
     }
 
-    .contact{
-        width: auto;
-        font-size: 1rem;
-    }
 }
 
