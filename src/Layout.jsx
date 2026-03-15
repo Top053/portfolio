@@ -56,6 +56,8 @@ function Layout(){
             ></div>
             {/*sliding drawer*/}
             <div className={`drawer ${menuOpen ? 'drawer-open' : ''}`}>
+                
+                <button className="close-drawer" onClick={closeMenu}>X</button>
                 <ul className="drawer-links">
                     <li>
                         <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""} onClick={closeMenu}>
