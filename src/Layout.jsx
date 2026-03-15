@@ -36,7 +36,7 @@ function Layout(){
 
                         {/*Hamburger button - only visible on mobile or small screens*/}
                         <button
-                            className={`hamburger ${menuOpen ? 'open':''}`}
+                            className="hamburger"
                             onClick={() => setMenuOpen(prev => !prev)}
                             aria-label="Toggle navigation menu"
                             aria-expanded={menuOpen}
@@ -56,7 +56,7 @@ function Layout(){
             ></div>
             {/*sliding drawer*/}
             <div className={`drawer ${menuOpen ? 'drawer-open' : ''}`}>
-                
+
                 <button className="close-drawer" onClick={closeMenu}>X</button>
                 <ul className="drawer-links">
                     <li>
