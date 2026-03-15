@@ -36,14 +36,14 @@ function Layout(){
 
                         {/*Hamburger button - only visible on mobile or small screens*/}
                         <button
-                            className="hamburger"
+                            className="open-drawer"
                             onClick={() => setDrawerOpen(prev => !prev)}
                             aria-label="Toggle navigation menu"
                             aria-expanded={drawerOpen}
                         >
-                            <span className="hamburger-line one"></span>
-                            <span className="hamburger-line two"></span>
-                            <span className="hamburger-line three"></span>
+                            <span className="line"></span>
+                            <span className="line"></span>
+                            <span className="line"></span>
                         </button>
                     </div>
                 </nav>
