@@ -113,7 +113,7 @@ header {
     font-weight: 600;
 }
 /*hamburger BUTTON*/
-.hamburger{
+.open-drawer{
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -125,12 +125,12 @@ header {
     width: auto;
     cursor: pointer;
 }
-.hamburger:hover{
+.open-drawer:hover{
     background-color: rgb(141, 80, 147);
     transform: none;
     border-color: rgb(141, 80, 147);
 }
-.hamburger-line{
+.line{
     display: block;
     width: 24px;
     height: 2px;
@@ -309,7 +309,7 @@ footer{
         padding: 10px 0;
     }
 
-    .hamburger{
+    .open-drawer{
         display: flex;
     }
 
