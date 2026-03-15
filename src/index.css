@@ -139,16 +139,6 @@ header {
     transition: transform 0.3s ease, opacity 0.3s ease;
     transform-origin: center;
 }
-/*animate hamburger button into an X when open*/
-.hamburger.open .one{
-    transform: translateY(7px) rotate(45deg);
-}
-.hamburger.open .two{
-    opacity:0;
-}
-.hamburger.open .three{
-    transform:translateY(-7px) rotate(-45deg)
-}
 
 .intro{
     width:100%;
