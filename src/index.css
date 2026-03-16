@@ -298,6 +298,12 @@ footer{
 .drawer-links li a.active{
     color: rgb(141, 80, 147);
 }
+.close-drawer{
+    background: none;
+    border: 1px solid rgb(141, 80, 147);
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /*MOBILE STYLES*/
 @media (max-width:800px){
