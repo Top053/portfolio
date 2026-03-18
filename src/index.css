@@ -86,6 +86,21 @@ header {
     font-weight: 600;
 }
 
+.nav-left a::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: rgb(141, 80, 147);
+    transition: 0.5s;
+}
+
+.nav-left a:hover{
+    color: rgb(141, 80, 147);
+}
+
 .nav-bar ul{
     width: 100%;
     list-style: none;
