@@ -81,15 +81,6 @@ header {
     position: relative;
 }
 
-.nav-left a.active{
-    color: rgb(141, 80, 147);
-    font-weight: 600;
-}
-
-.nav-left a:hover{
-    color: rgb(141, 80, 147);
-}
-
 .nav-left a::after{
     content: "";
     position: absolute;
@@ -101,7 +92,19 @@ header {
     transition: 0.5s;
 }
 
-.nav-left a :hover::after{
+.nav-left a:hover::after{
+    width: 100%;
+}
+
+.nav-left a:hover{
+    color: rgb(141, 80, 147);
+}
+
+.nav-left a.active{
+    color: rgb(141, 80, 147);
+    font-weight: 600;
+}
+.nav-left a.active::after{
     width: 100%;
 }
 
@@ -120,8 +123,8 @@ header {
     padding-bottom: 4px;
     position: relative;
     font-size: 1.2rem;
-
 }
+
 .nav-bar li a::after{
     content: "";
     position: absolute;
