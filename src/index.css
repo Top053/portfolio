@@ -86,6 +86,10 @@ header {
     font-weight: 600;
 }
 
+.nav-left a:hover{
+    color: rgb(141, 80, 147);
+}
+
 .nav-left a::after{
     content: "";
     position: absolute;
@@ -97,8 +101,8 @@ header {
     transition: 0.5s;
 }
 
-.nav-left a:hover{
-    color: rgb(141, 80, 147);
+.nav-left a :hover::after{
+    width: 100%;
 }
 
 .nav-bar ul{
