@@ -10,14 +10,13 @@ function Layout(){
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
 
-                        {/*Desktop nav links*/}
-                        <li>
-                            <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
-                                Home
-                            </NavLink>
-                        </li>
-                        
+                        {/*Desktop nav links*/}                        
                         <ul>
+                            <li>
+                                <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
+                                    Home
+                                </NavLink>
+                            </li>
                             <li>
                                 <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""}>
                                     About
@@ -71,11 +70,11 @@ function Layout(){
                         </NavLink>
                     </li>
                     <li>
-                        <li>
-                            <NavLink to="/blogs" className={({isActive}) => isActive ? "active" : ""}>
-                                Blogs
-                            </NavLink>
-                        </li>
+                        <NavLink to="/blogs" className={({isActive}) => isActive ? "active" : ""}>
+                            Blogs
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/projects" className={({isActive}) => isActive ? "active" : ""} onClick={closeDrawer}>
                             Projects
                         </NavLink>
