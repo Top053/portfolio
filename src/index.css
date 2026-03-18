@@ -73,7 +73,7 @@ header {
     padding: 10px 0;
 }
 
-.nav-left a{
+.nav-content > a{
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
@@ -81,7 +81,7 @@ header {
     position: relative;
 }
 
-.nav-left a::after{
+.nav-content > a::after{
     content: "";
     position: absolute;
     right: 0;
@@ -92,19 +92,19 @@ header {
     transition: 0.5s;
 }
 
-.nav-left a:hover::after{
+.nav-content > a:hover::after{
     width: 100%;
 }
 
-.nav-left a:hover{
+.nav-content > a:hover{
     color: rgb(141, 80, 147);
 }
 
-.nav-left a.active{
+.nav-content > a.active{
     color: rgb(141, 80, 147);
     font-weight: 600;
 }
-.nav-left a.active::after{
+.nav-content > a.active::after{
     width: 100%;
 }
 
@@ -125,6 +125,10 @@ header {
     font-size: 1.2rem;
 }
 
+.nav-bar li a:hover{
+    color: rgb(141, 80, 147);
+}
+
 .nav-bar li a::after{
     content: "";
     position: absolute;
@@ -135,6 +139,7 @@ header {
     background-color: rgb(141, 80, 147);
     transition: 0.5s;
 }
+
 .nav-bar li a:hover::after{
     width: 100%;
 }
