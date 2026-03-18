@@ -370,7 +370,7 @@ footer{
     }
 
     /*hide nav links by default on mobile*/
-    .nav-bar ul{
+    .nav-bar ul, .nav-content > a{
         display: none;
     }
 
