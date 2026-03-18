@@ -73,41 +73,6 @@ header {
     padding: 10px 0;
 }
 
-.nav-content > a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    padding-bottom: 4px;
-    position: relative;
-}
-
-.nav-content > a::after{
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 0;
-    height: 1.5px;
-    background-color: rgb(141, 80, 147);
-    transition: 0.5s;
-}
-
-.nav-content > a:hover::after{
-    width: 100%;
-}
-
-.nav-content > a:hover{
-    color: rgb(141, 80, 147);
-}
-
-.nav-content > a.active{
-    color: rgb(141, 80, 147);
-    font-weight: 600;
-}
-.nav-content > a.active::after{
-    width: 100%;
-}
-
 .nav-bar ul{
     width: 100%;
     list-style: none;
@@ -117,7 +82,7 @@ header {
     gap: 1rem;
     justify-content: flex-end;
 }
-.nav-bar li a{
+.nav-bar li a , .nav-content > a{
     text-decoration: none;
     color: white;
     padding-bottom: 4px;
@@ -125,11 +90,11 @@ header {
     font-size: 1.2rem;
 }
 
-.nav-bar li a:hover{
+.nav-bar li a:hover , .nav-content > a:hover{
     color: rgb(141, 80, 147);
 }
 
-.nav-bar li a::after{
+.nav-bar li a::after , .nav-content > a::after{
     content: "";
     position: absolute;
     right: 0;
@@ -140,15 +105,15 @@ header {
     transition: 0.5s;
 }
 
-.nav-bar li a:hover::after{
+.nav-bar li a:hover::after , .nav-content > a:hover::after{
     width: 100%;
 }
 
 /*ACTIVE PAGE*/
-.nav-bar li a.active::after{
+.nav-bar li a.active::after , .nav-content > a.active::after{
     width: 100%;
 }
-.nav-bar li a.active{
+.nav-bar li a.active , .nav-content > a.active{
     color: rgb(141, 80, 147);
     font-weight: 600;
 }
@@ -370,12 +335,8 @@ footer{
     }
 
     /*hide nav links by default on mobile*/
-    .nav-bar ul, .nav-content > a{
+    .nav-bar ul , .nav-content > a{
         display: none;
-    }
-
-    .nav-bar li a{
-        font-size: 1.1rem;
     }
 
     /*shrink heading on small screen*/
