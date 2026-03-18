@@ -10,13 +10,13 @@ function Layout(){
                 <nav className="nav-bar">
                     <div className="page-width nav-content">
 
-                        {/*Desktop nav links*/}                        
-                        <ul>
-                            <li>
-                                <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
-                                    Home
-                                </NavLink>
-                            </li>
+                        {/*Desktop nav links*/}
+                        <div className="nav-left">
+                            <NavLink to="/" end className={({isActive}) => isActive ? "active" : ""}>
+                                Home
+                            </NavLink>
+                        </div>                     
+                        <ul className="nav-right">
                             <li>
                                 <NavLink to="/about" className={({isActive}) => isActive ? "active" : ""}>
                                     About
