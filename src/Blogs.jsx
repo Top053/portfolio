@@ -1,6 +1,6 @@
 function Blog(){
     const posts = [
-        {id:"javascript" , title:"my encounter with javascript"}
+        {id:"javascript" , title:"My Encounter With Javascript"}
     ]
 
     return(
@@ -11,8 +11,9 @@ function Blog(){
             </div>
 
             {posts.map(post =>(
-                <div key={post.id}>
+                <div className="posts-container" key={post.id}>
                     <h3>{post.title}</h3>
+                    <p>Date Published: March 23, 2026</p>
                 </div>
             ))}
         </div>
