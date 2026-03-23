@@ -68,7 +68,7 @@ function Layout(){
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/blog" className={({isActive}) => isActive ? "active" : ""}>
+                        <NavLink to="/blog" className={({isActive}) => isActive ? "active" : ""} onClick={closeDrawer}>
                             Blog
                         </NavLink>
                     </li>
