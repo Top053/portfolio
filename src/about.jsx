@@ -3,7 +3,7 @@ function About(){
         <div>
             <div className="main">
                 <div className="boyd">
-                    <h1>ABOUT</h1>
+                    <h1 className="about h1">ABOUT</h1>
                     <p id="e-mail">reallenoxboyd@gmail.com</p>
                     <p className="about">
                         Hi, I’m Lenox Boyd.
