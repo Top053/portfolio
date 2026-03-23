@@ -1,8 +1,8 @@
-function Blogs(){
+function Blog(){
     return(
         <div>
             <div className="main"></div>
         </div>
     )
 }
-export default Blogs;
+export default Blog;
