@@ -11,7 +11,7 @@ function Blog(){
             </div>
 
             {posts.map(post =>(
-                <div className="posts-container" key={post.id}>
+                <div className="post-container" key={post.id}>
                     <h3>{post.title}</h3>
                     <p>Date Published: March 23, 2026</p>
                 </div>
