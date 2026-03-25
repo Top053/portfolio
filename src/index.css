@@ -60,6 +60,7 @@ header {
 .post-container h3{
     cursor: pointer;
     margin-bottom: 5px;
+    transition: color 0.3s ease;
 }
 .post-container p{
     margin-top: 7px;
