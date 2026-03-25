@@ -58,6 +58,7 @@ header {
     background: rgba(255, 255, 255, 0.1);
 }
 .post-container h3{
+    cursor: pointer;
     margin-bottom: 5px;
 }
 .post-container p{
