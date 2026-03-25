@@ -62,6 +62,9 @@ header {
     margin-bottom: 5px;
     transition: color 0.3s ease;
 }
+.post-container h3:hover{
+    color:rgb(141, 80, 147)
+}
 .post-container p{
     margin-top: 7px;
 }
