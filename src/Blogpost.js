@@ -1,4 +1,4 @@
-const posts = [
+const blogposts = [
         {
             id:"javascript",
             title:"My Encounter With Javascript",
@@ -6,4 +6,4 @@ const posts = [
             date:"March 23, 2026"
         }
     ]
-    export default posts;
+    export default blogposts;

@@ -1,4 +1,4 @@
-import posts from "./blogposts"
+import blogposts from "./Blogpost"
 function Blog(){
 
     return(
@@ -8,7 +8,7 @@ function Blog(){
                 <p className="blog-p">Explore my thoughts, step-by-step tutorials, and insights on various topics</p>
             </div>
 
-            {posts.map(post =>(
+            {blogposts.map(post =>(
                 <div className="post-container" key={post.id}>
                     <h3>{post.title}</h3>
                     <p>{post.summary}</p>
