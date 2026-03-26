@@ -1,3 +1,4 @@
+import posts from "./blogposts"
 function Blog(){
 
     return(
