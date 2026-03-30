@@ -13,7 +13,7 @@ function Blog(){
                         <p>{post.summary}</p>
                         <p>Date Published: {post.date}</p>
                     </div>
-                ))};
+                ))}
             </div>
         </div>
     )
